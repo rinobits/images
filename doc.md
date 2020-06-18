@@ -26,7 +26,30 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
 
 > ## Funcionalidades: 
 
+* ### Oficina:
+  * #### Programación diaria
+  * #### Pedidos especiales
+  * #### Masas especiales
+* ### Precios:
+  * #### Tortas
+  * #### Productos
+* ### Cámara:
+  * #### Programación
+  * #### Recepción
+* ### Fábrica:
+  * #### Recepción Fábrica
+  * #### Salida Fábrica
+  * #### Revisión Camioneta
+  * #### Caja
+* ### Local:
+  * #### Pedido especial
+  * #### Sobrantes
+  * #### Mensajes
+* ### Reportes:
+  * #### Dashboard 
+
 > ## Errores:
+
 #### **Login**: 
 
 A continuación podemos apreciar un cierre en al ventana del login al hacer click en cualquier lugar de la ventana.
@@ -49,4 +72,7 @@ h4{
     text-decoration: underline;
 }
 p {margin-left:40px}
+.some{
+    color:black !important;
+}
 </style>
