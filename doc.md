@@ -24,31 +24,138 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
 
 [![Watch the video](https://raw.githubusercontent.com/rinobits/images/master/preview2.png)](https://youtu.be/ZLitlazA4NA)<hr>
 
-> ## Funcionalidades: 
+> # Funcionalidades
+* ### Oficina<br>
 
-* ### Oficina:
-  * #### Programación diaria
-  * #### Pedidos especiales
-  * #### Masas especiales
+* #### PROGRAMACIÓN DIARIA
+
+  **MÉTODOS**  | **PARA**
+  ------------ | -------------
+  GET          | Obtener pedidos   <br>
+  <hr>
+
+   - Como se observa en la captura de abajo, hay cuatro columnas, cada una de ellas con información que será traída desde el servidor: 
+     1) Necesitamos obtener los pedidos
+     2) Su nombre, 
+     3) cuántas veces se repite por tamaño, y
+     4) cuántas lo hace en cada columna proceso. 
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/2.png "programación diaria")
+
+
+  * #### PEDIDOS ESPECIALES<br>
+  
+
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    
+    <hr>
+
+      - Aquí tenemos un fomulario para realizar un pedido, mostrarlo, imprimirlo, así como también hay una tabla en donde los pedidos serán organizados por su tamaño.   
+      - En el panel izquierdo se mostrarán los pedidos, al hacer click se mostrarán los resultados en el formulario para, al parecer, poder imprimirlos.
+      - Esta página no realiza nada más, sólo muestra información.
+  
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/3.png "menu comunas")
+
+
+
+  * #### Masas especiales<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    <hr>
+  
+    - Nos encontramos con una página que muestra información sobre la cantidad de masas elaboradas v/s la cantidad de pedidos realizaods.
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/4.png "masas especiales")
+
+
+
 * ### Precios:
-  * #### Tortas
-  * #### Productos
-* ### Cámara:
-  * #### Programación
-  * #### Recepción
+  * #### Tortas<br>
+  **MÉTODOS**  | **PARA**
+  ------------ | -------------
+  GET          | Obtener pedidos   <br>
+  POST         | Registrar pedido  <br>
+  <hr>
+
+  - Realización del pedido. Elección de torta y tamaño.    
+  - Seleccion de costo v/s venta con y sin IVA.    
+  - Seguramente los pedidos que se van realizando van  apareciendo debajo en función del tiempo.    
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/5.png "tortas")
+
+
+
+  * #### Productos<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    POST         | Registrar pedido  <br>
+    <hr>
+    - Lo mismo que en el caso de los precios.
+  
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/6.png "productos")
+* ### Cámara
+  * #### Programación<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    POST         | Registrar pedido  <br>
+    <hr>
+  
+    - Es similar a la tabla de programación diara, conservándose la misma primera columna con el tipo de torta, manteniendo la segmentación por tamaño en las columnas subsecuentes.
+    Pero ahora los procesos son:
+        1) Programación
+        2) Recepción
+        3) En camino y
+        4) Retirado
+        
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/7.png "programación")
+  * #### Recepción<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    <hr>
+  
+    - Formulario vacío, ha de mostrar los pedidos concretados, e decir, los que han sido entregados satisfactoriamente al cliente.
+        
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
 * ### Fábrica:
-  * #### Recepción Fábrica
+  * #### Recepción fábrica<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    POST         | Registrar pedido  <br>
+    <hr>
+  
+    - Es similar a la tabla de programación diara, conservándose la misma primera columna con el tipo de torta, manteniendo la segmentación por tamaño en las columnas subsecuentes.
+    Pero ahora los procesos son:
+        1) Programación
+        2) Recepción
+        3) En camino y
+        4) Retirado
+        
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/9.png "recepción fábrica")
   * #### Salida Fábrica
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/10.png "Recepción")
   * #### Revisión Camioneta
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/11.png "revisión camioneta")
   * #### Caja
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/12.png "caja")
 * ### Local:
   * #### Pedido especial
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/13.png "Pedido especial")
   * #### Sobrantes
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/14.png "sobrantes")
   * #### Mensajes
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/15.png "mensajes")
 * ### Reportes:
   * #### Dashboard 
+    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/1.png "dashboard")
 
-> ## Errores:
+> # Errores:
 
 #### **Login**: 
 
@@ -62,17 +169,15 @@ Esto nos devuelve la interfaz de pedidos pero en blanco, sin información, pues 
 
 <style>
 img{
-    align-content: center;
-    justify-content: center;
     max-width:500px;
-    margin-left:40px;
+    margin-left:0px;
 }
 body{background-color:rgba(20,2,30)}
-h4{
-    text-decoration: underline;
-}
 p {margin-left:40px}
 .some{
     color:black !important;
+}
+h3{
+    text-decoration:underline;
 }
 </style>
