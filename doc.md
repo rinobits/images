@@ -94,7 +94,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     GET          | Obtener pedidos   <br>
     POST         | Registrar pedido  <br>
     <hr>
-    - Lo mismo que en el caso de los precios.
+    - Lo mismo que en el caso de las tortas.
   
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/6.png "productos")
 * ### Cámara
@@ -102,7 +102,6 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     **MÉTODOS**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
-    POST         | Registrar pedido  <br>
     <hr>
   
     - Es similar a la tabla de programación diara, conservándose la misma primera columna con el tipo de torta, manteniendo la segmentación por tamaño en las columnas subsecuentes.
@@ -119,7 +118,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     GET          | Obtener pedidos   <br>
     <hr>
   
-    - Formulario vacío, ha de mostrar los pedidos concretados, e decir, los que han sido entregados satisfactoriamente al cliente.
+    - Formulario vacío, ha de mostrar los pedidos concretados, es decir, los que han sido entregados satisfactoriamente al cliente.
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
 * ### Fábrica:
