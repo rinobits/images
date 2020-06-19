@@ -211,10 +211,17 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
 
     - Se añaden los mensajes para los pedidos.
     - Asumiremos un get by id pensando en que se mostrarán los pedidos en el panel izquierdo y podremos seleccionarlos para mostrar el mensaje a la derecha y editarlo. 
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/15.png "mensajes")
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/15.png "mensajes")
 * ### Reportes:
-  * #### Dashboard 
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/1.png "dashboard")
+  * #### Dashboard <br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    <hr>
+    - Obtenemos la información de todas las sucursales, estructurada de a forma que se muestra en la imagen.
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/1.png "dashboard")
 
 > # Errores:
 
