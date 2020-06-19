@@ -29,7 +29,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 * #### PROGRAMACIÓN DIARIA
 
-  **MÉTODOS**  | **PARA**
+  **MÉTODO**  | **PARA**
   ------------ | -------------
   GET          | Obtener pedidos   <br>
   <hr>
@@ -46,7 +46,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
   * #### PEDIDOS ESPECIALES<br>
   
 
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     GET          | Get by ID          <br>
@@ -62,7 +62,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 
   * #### Masas especiales<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
@@ -75,7 +75,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 * ### Precios:
   * #### Tortas<br>
-  **MÉTODOS**  | **PARA**
+  **MÉTODO**  | **PARA**
   ------------ | -------------
   GET          | Obtener pedidos   <br>
   GET          | Get by ID          <br>
@@ -92,7 +92,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 
   * #### Productos<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     GET          | Get by ID          <br>
@@ -104,7 +104,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/6.png "productos")
 * ### Cámara
   * #### Programación<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
@@ -121,7 +121,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 #### Este botón se repetirá varias veces a continuación, seguramente es para desplegar un formulario o para dirigirnos a otro lugar dentro del sistema.
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/Selection_012.png "cuadricula")<hr><hr>
   * #### Recepción<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
@@ -133,7 +133,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
 * ### Fábrica:
   * #### Recepción fábrica<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     GET          | Get by ID          <br>
@@ -150,7 +150,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/9.png "recepción fábrica")
   * #### Salida Fábrica<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
@@ -165,7 +165,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/11.png "revisión camioneta")
   * #### Caja<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     PUT          | Bloquear un pedido <br>
@@ -178,7 +178,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/12.png "caja")
 * ### Local:
   * #### Pedido especial<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     GET          | Get by ID          <br>
@@ -191,7 +191,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/13.png "Pedido especial")
   * #### Sobrantes<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
@@ -201,7 +201,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/14.png "sobrantes")
   * #### Mensajes<br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener mensajes   <br>
     GET          | Get by ID          <br>
@@ -214,7 +214,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/15.png "mensajes")
 * ### Reportes:
   * #### Dashboard <br>
-    **MÉTODOS**  | **PARA**
+    **MÉTODO**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
     <hr>
