@@ -42,7 +42,6 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/2.png "programación diaria")
 
-
   * #### PEDIDOS ESPECIALES<br>
   
 
@@ -128,9 +127,19 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
   
     - Formulario vacío, ha de mostrar los pedidos concretados, es decir, los que han sido entregados satisfactoriamente al cliente.
     - Se aplica lo mismo que en el caso de arriba para el POST.
-
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
+
+- **Tenemos también un botón circular que tiene dos estados, los cuales podrían**
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/redbutton.png "programación diaria")
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/greenbutton.png "programación diaria")
+
+    - Determinar el estado de un proceso o una acción dentro del sistema. Desconocemos si fue colocado con la intención de dejarlo en la interfaz para que determine una función específica o si fue introducido por el desarrollador para testear una característica.
+    - El botón se verá en más páginas, en rojo por defecto, cambiando a verde si se presiona y a rojo nuevamente si se presiona cualquier parte diferene del botón mismo.
+
+
 * ### Fábrica
   * #### Recepción fábrica<br>
     **MÉTODO**  | **PARA**
