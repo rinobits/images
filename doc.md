@@ -73,7 +73,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 
 
-* ### Precios:
+* ### Precios
   * #### Tortas<br>
   **MÉTODO**  | **PARA**
   ------------ | -------------
@@ -131,7 +131,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
-* ### Fábrica:
+* ### Fábrica
   * #### Recepción fábrica<br>
     **MÉTODO**  | **PARA**
     ------------ | -------------
@@ -222,9 +222,9 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/1.png "dashboard")
 
-> # Errores:
+> # Errores
 
-#### **Login**: 
+#### **Login**
 
 A continuación podemos apreciar un cierre en al ventana del login al hacer click en cualquier lugar de la ventana.
 
