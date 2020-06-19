@@ -112,8 +112,9 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
         4) Retirado
     - Podría haber un método post porque hay un botń de registro, pero como no hay formulario visible no lo colocaremos aquí, porque si no es un formulario emergente, probablemente dirigirá a otra sección dentro del sistema.
     
-![alt text](https://raw.githubusercontent.com/rinobits/images/master/7.png "programación")
-
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/7.png "programación")<hr><hr>
+#### Este botón se repetirá varias veces a continuación, seguramente es para desplegar un formulario o para dirigirnos a otro lugar dentro del sistema.
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/Selection_012.png "cuadricula")<hr><hr>
   * #### Recepción<br>
     **MÉTODOS**  | **PARA**
     ------------ | -------------
