@@ -49,6 +49,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     **MÉTODOS**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
+    GET          | Get by ID          <br>
     
     <hr>
 
@@ -77,7 +78,9 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
   **MÉTODOS**  | **PARA**
   ------------ | -------------
   GET          | Obtener pedidos   <br>
+  GET          | Get by ID          <br>
   POST         | Registrar pedido  <br>
+  PUT          | Editar un pedido <br>
   <hr>
 
   - Realización del pedido. Elección de torta y tamaño.    
@@ -92,7 +95,9 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     **MÉTODOS**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
+    GET          | Get by ID          <br>
     POST         | Registrar pedido  <br>
+    PUT          | Editar un pedido <br>
     <hr>
     - Lo mismo que en el caso de las tortas.
   
@@ -131,7 +136,8 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     **MÉTODOS**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
-    POST         | Crear pedidos
+    GET          | Get by ID          <br>
+    POST         | Crear pedidos<br>
     <hr>
   
     - Es similar a la tabla de programación diara, conservándose la misma primera columna con el tipo de torta, manteniendo la segmentación por tamaño en las columnas subsecuentes.
@@ -154,15 +160,57 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
   
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/10.png "Recepción")
   * #### Revisión Camioneta
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/11.png "revisión camioneta")
-  * #### Caja
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/12.png "caja")
+    - Página completamente en blanco. Quizás estemos en presencia de una página que mostrará los pedidos que están _en camino_ y su estado.
+  
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/11.png "revisión camioneta")
+  * #### Caja<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    PUT          | Bloquear un pedido <br>
+    <hr>
+
+    - Supondremos que cada caja contiene **X** cantidad de pedidos, quizá al presionar uno de los campos se pretendía que se mostrase el contenido de cada caja. 
+    - El candado ha de determinar si un pedido está en proceso de elaboración (bloqueado) o en proceso de despacho o entregado (desbloqueado). O también podría ser a la inversa.
+    - El candado también podría ser una opción para bloquear el envío o la entrega de una caja, por cualquier razón.
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/12.png "caja")
 * ### Local:
-  * #### Pedido especial
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/13.png "Pedido especial")
-  * #### Sobrantes
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/14.png "sobrantes")
-  * #### Mensajes
+  * #### Pedido especial<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    GET          | Get by ID          <br>
+    PUT          | Editar un pedido <br>
+    POST         | Crear pedido <br>
+    <hr>
+    
+    - Desde aquí podemos listar, registrar y editar pedidos. 
+    - Podrían reducirse 4 formularios a éste, realizando algunas añadiduras.
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/13.png "Pedido especial")
+  * #### Sobrantes<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    <hr>
+  
+    - Aparentemente una lista de excedentes, quizá marcando pedidos cancelados, mal registrados, que no pasaron el control de calidad, etcétera.
+
+
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/14.png "sobrantes")
+  * #### Mensajes<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener mensajes   <br>
+    GET          | Get by ID          <br>
+    PUT          | Editar un mensaje <br>
+    POST         | Crear mensaje <br>
+    <hr>
+
+    - Se añaden los mensajes para los pedidos.
+    - Asumiremos un get by id pensando en que se mostrarán los pedidos en el panel izquierdo y podremos seleccionarlos para mostrar el mensaje a la derecha y editarlo. 
     ![alt text](https://raw.githubusercontent.com/rinobits/images/master/15.png "mensajes")
 * ### Reportes:
   * #### Dashboard 
