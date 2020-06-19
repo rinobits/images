@@ -206,7 +206,6 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
     GET          | Obtener mensajes   <br>
     GET          | Get by ID          <br>
     PUT          | Editar un mensaje <br>
-    POST         | Crear mensaje <br>
     <hr>
 
     - Se añaden los mensajes para los pedidos.
