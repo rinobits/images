@@ -110,8 +110,10 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
         2) Recepción
         3) En camino y
         4) Retirado
-        
+    - Podría haber un método post porque hay un botń de registro, pero como no hay formulario visible no lo colocaremos aquí, porque si no es un formulario emergente, probablemente dirigirá a otra sección dentro del sistema.
+    
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/7.png "programación")
+
   * #### Recepción<br>
     **MÉTODOS**  | **PARA**
     ------------ | -------------
@@ -119,6 +121,8 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     <hr>
   
     - Formulario vacío, ha de mostrar los pedidos concretados, es decir, los que han sido entregados satisfactoriamente al cliente.
+    - Se aplica lo mismo que en el caso de arriba para el POST.
+
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/8.png "recepción")
 * ### Fábrica:
@@ -126,7 +130,7 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
     **MÉTODOS**  | **PARA**
     ------------ | -------------
     GET          | Obtener pedidos   <br>
-    POST         | Registrar pedido  <br>
+    POST         | Crear pedidos
     <hr>
   
     - Es similar a la tabla de programación diara, conservándose la misma primera columna con el tipo de torta, manteniendo la segmentación por tamaño en las columnas subsecuentes.
@@ -135,10 +139,19 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones que most
         2) Recepción
         3) En camino y
         4) Retirado
+    - Se aplica lo mismo que en el caso de arriba para el POST. Pero lo pondremos guiados por la suposición de que desde aquí se pueden enviar pedidos en masa para la fábrica, especificando a posteriori sus características.
         
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/9.png "recepción fábrica")
-  * #### Salida Fábrica
-    ![alt text](https://raw.githubusercontent.com/rinobits/images/master/10.png "Recepción")
+  * #### Salida Fábrica<br>
+    **MÉTODOS**  | **PARA**
+    ------------ | -------------
+    GET          | Obtener pedidos   <br>
+    <hr>
+  
+    - Claramente, los pedidos que han salido de la fábrica. Desconozco el motivo de la duplicación de "Torta", quizá una es para tortas especiales y la otra para convencionales. O talvez una es para tortas "Diet" (ver menu: precios -> tortas).
+    - Se aplica la misma incertidumbre para el POST que en los casos precedentes.
+  
+![alt text](https://raw.githubusercontent.com/rinobits/images/master/10.png "Recepción")
   * #### Revisión Camioneta
     ![alt text](https://raw.githubusercontent.com/rinobits/images/master/11.png "revisión camioneta")
   * #### Caja
