@@ -136,7 +136,8 @@ Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mos
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/greenbutton.png "programación diaria")
 
-    - Determinar el estado de un proceso o una acción dentro del sistema. Desconocemos si fue colocado con la intención de dejarlo en la interfaz para que determine una función específica o si fue introducido por el desarrollador para testear una característica.
+    - Determinar el estado de un proceso o una acción dentro del sistema. El botón queda en verde cuando se le da al botón de **Comenzar**. 
+
     - El botón se verá en más páginas, en rojo por defecto, cambiando a verde si se presiona y a rojo nuevamente si se presiona cualquier parte diferene del botón mismo.
 
 
