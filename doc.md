@@ -20,7 +20,7 @@ mostrada en función de la fecha seleccionada. Este controlador lo veremos en va
 
 ![alt text](https://raw.githubusercontent.com/rinobits/images/master/fecha.png "fechas")
 
-Mientras que en el menú izquierdo podremos ver las siguientes opciones que mostraremos rápidamente en el siguiente vídeo:
+Mientras que en el menú izquierdo podremos ver las siguientes opciones, que mostraremos rápidamente en el siguiente vídeo y que serán descritas más abajo en este mismo documento.
 
 [![Watch the video](https://raw.githubusercontent.com/rinobits/images/master/preview2.png)](https://youtu.be/ZLitlazA4NA)<hr>
 
